@@ -17,12 +17,12 @@ n1=n/2;
 }
 for(i=0;i<n1;i++)
 {
-k=a[i]+a[i+1];
+k=a[n1]+a[n1-1];
 break;
 }
 for(i=n1+1;i<n;i++)
 {
-m=a[i]+a[i+1];
+m=a[n1]+a[n1+1];
 break;
 }
 if(k==m)
